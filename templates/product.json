@@ -57,7 +57,9 @@
     "second-section": {
       "type": "second-section",
       "settings": {
+        "thumb_1": "shopify:\/\/shop_images\/Group_8.svg",
         "img_desc_1": "",
+        "thumb_2": "shopify:\/\/shop_images\/gluten-free.svg",
         "img_desc_2": "",
         "img_desc_3": "",
         "img_desc_4": "",
