@@ -1,9 +1,7 @@
 <div id="content">
   <div class="shopify-section">
     <div class="container aboutus">
-      <header>
-        <h1>{{ section.settings.heading }}</h1>
-      </header>
+      <header></header>
       <div class="video">
         <div class="responsive-video">
           <iframe
@@ -15,30 +13,16 @@
             allowfullscreen></iframe>
         </div>
       </div>
-      <div class="textcontent">
-        {{ section.settings.textcontent }}
-      </div>
+      <div class="textcontent"></div>
       <div class="mission">
         <img src="{{ section.settings.missionimage | img_url: "520x" }}" />
-        <ul>
-          {% for block in section.blocks %}
-            <li>
-              <h3>{{ block.settings.statement }}</h3>
-              <p>{{ block.settings.statementtext }}</p>
-            </li>
-          {% endfor %}
-        </ul>
+        <ul></ul>
       </div>
     </div>
 
-    <div class="creds">
-      {{ block.settings.cred }} {{ block.settings.text2 }}
-    </div>
+    <div class="creds"></div>
     <div class="pageBanner">
-      <div class="bannerText">
-        <h2>{{ section.settings.bannerline1 }}</h2>
-        <p>{{ section.settings.bannerline2 }}</p>
-      </div>
+      <div class="bannerText"></div>
       <img src="{{ section.settings.bannerimage | img_url: "520x" }}" />
     </div>
   </div>
