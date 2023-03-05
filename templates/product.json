@@ -48,11 +48,8 @@
           "block_order": ["00192e08-6634-43c4-a1fd-587966e38818"],
           "settings": { "include_margins": true }
       },
-      "section2":{
-        "type": "second-section",
-        "settings": {
-
-        }
+      "section-section":{
+        "type": "second-section"
       }
   },
   "order": ["main", "section2", "related-products", "167783221777f37d3f"]
