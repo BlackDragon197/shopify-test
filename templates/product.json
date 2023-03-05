@@ -58,16 +58,16 @@
       "type": "second-section",
       "settings": {
         "thumb_1": "shopify:\/\/shop_images\/Group_8.svg",
-        "img_desc_1": "",
+        "img_desc_1": "NON-GMO",
         "thumb_2": "shopify:\/\/shop_images\/gluten-free.svg",
-        "img_desc_2": "",
+        "img_desc_2": "GLUTEN FREE",
         "thumb_3": "shopify:\/\/shop_images\/vegan.svg",
-        "img_desc_3": "",
+        "img_desc_3": "VEGAN",
         "thumb_4": "shopify:\/\/shop_images\/low-calorie.svg",
-        "img_desc_4": "",
+        "img_desc_4": "LOW CALORIE",
         "thumb_5": "shopify:\/\/shop_images\/dairy-free.svg",
-        "img_desc_5": "",
-        "background": ""
+        "img_desc_5": "DAIRY FREE",
+        "background": "#f6fef0"
       }
     },
     "167783221777f37d3f": {
