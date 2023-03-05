@@ -95,12 +95,33 @@
         "label_3_desc": "",
         "background": ""
       }
+    }, "forth-section":{
+      "type": "forth-section",
+      "settings": {
+        "heading": "",
+        "img_1": "",
+        "img_head_1": "",
+        "img_desc_1": "",
+        "img_2": "",
+        "img_head_2": "",
+        "img_desc_2": "",
+        "img_3": "",
+        "img_head_3": "",
+        "img_desc_3": "",
+        "img_4": "",
+        "img_head_4": "",
+        "img_desc_4": "",
+        "img_5": "",
+        "img_head_5": "",
+        "img_desc_5": ""
+      }
     }
   },
   "order": [
     "main",
     "second-section",
     "167783221777f37d3f",
-    "14fcd76a-8e12-4c25-a5d0-22d8edf9e583"
+    "14fcd76a-8e12-4c25-a5d0-22d8edf9e583",
+    "forth-section"
   ]
 }
