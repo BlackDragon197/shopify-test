@@ -57,12 +57,17 @@
     "second-section": {
       "type": "second-section",
       "settings": {
-        "img_desc_1": "",
-        "img_desc_2": "",
-        "img_desc_3": "",
-        "img_desc_4": "",
-        "img_desc_5": "",
-        "background": ""
+        "thumb_1": "shopify:\/\/shop_images\/Group_8.svg",
+        "img_desc_1": "NON-GMO",
+        "thumb_2": "shopify:\/\/shop_images\/gluten-free.svg",
+        "img_desc_2": "GLUTEN FREE",
+        "thumb_3": "shopify:\/\/shop_images\/vegan.svg",
+        "img_desc_3": "VEGAN",
+        "thumb_4": "shopify:\/\/shop_images\/low-calorie.svg",
+        "img_desc_4": "LOW CALORIE",
+        "thumb_5": "shopify:\/\/shop_images\/dairy-free.svg",
+        "img_desc_5": "DAIRY FREE",
+        "background": "#f6fef0"
       }
     },
     "167783221777f37d3f": {
@@ -85,42 +90,56 @@
     "14fcd76a-8e12-4c25-a5d0-22d8edf9e583": {
       "type": "third-section",
       "settings": {
-        "heading": "",
-        "heading_desc": "",
-        "label_1_head": "",
-        "label_1_desc": "",
-        "label_2_head": "",
-        "label_2_desc": "",
-        "label_3_head": "",
-        "label_3_desc": "",
-        "background": ""
+        "heading": "A long, deep breath in every sip",
+        "heading_desc": "Each serving of Ü Relax takes just a few minutes to set in for up to 4 hours of pure, uninterrupted bliss.",
+        "label_1_head": "Destress & Unwind",
+        "label_1_desc": "Come back to your center. Take on the day with a clearer, calmer mindset.",
+        "label_2_head": "Slow the mind chatter",
+        "label_2_desc": "Quiet any racing thoughts. Find stillness no matter what’s going on.",
+        "label_3_head": "Feel lighter and brighter",
+        "label_3_desc": "Shake off whatever’s weighing on you and get in a happy headspace.",
+        "background": "#eae7e7"
       }
     },
     "009fa302-1809-4001-80be-187fd51f794d": {
       "type": "forth-section",
       "settings": {
-        "heading": "",
-        "img_head_1": "",
-        "img_desc_1": "",
-        "img_head_2": "",
-        "img_desc_2": "",
-        "img_head_3": "",
-        "img_desc_3": "",
-        "img_head_4": "",
-        "img_desc_4": "",
-        "img_head_5": "",
-        "img_desc_5": "",
-        "img_head_6": "",
-        "img_desc_6": "",
-        "background": ""
+        "heading": "Thoughtfully sourced, clinically-tested ingredients",
+        "img_1": "shopify:\/\/shop_images\/noble-kava.png",
+        "img_head_1": "Ingredient 01",
+        "img_desc_1": "Relaxation & wellbeing",
+        "img_2": "shopify:\/\/shop_images\/Ashwaghanda.png",
+        "img_head_2": "Ingredient 02",
+        "img_desc_2": "Natural stress relief",
+        "img_3": "shopify:\/\/shop_images\/chamomile.png",
+        "img_head_3": "Ingredient 03",
+        "img_desc_3": "Diminish body stress",
+        "img_4": "shopify:\/\/shop_images\/l-theanine.png",
+        "img_head_4": "Ingredient 04",
+        "img_desc_4": "Natural calm & focus",
+        "img_5": "shopify:\/\/shop_images\/lemon-balm.png",
+        "img_head_5": "Ingredient 05",
+        "img_desc_5": "Reduce agitation",
+        "img_6": "shopify:\/\/shop_images\/chamomile.png",
+        "img_head_6": "Ingredient 06",
+        "img_desc_6": "Diminish body stress",
+        "background": "#f6ffe4"
       }
     },
     "5824f417-dfae-47e8-a24a-c205942c7b0d": {
       "type": "fifth-section",
       "settings": {
-        "heading": "",
-        "heading_desc": "",
-        "background": ""
+        "heading": "Full of flavor & function, not fluff",
+        "heading_desc": "Our calming shots are perfectly dosed for maximum stress-relief without the haze. Made with real fruit juice, organic sweeteners, organic cane sugar and natural flavors, and at only 30 calories, it’s a refreshingly sweet taste you’ll love to settle down with.",
+        "img_1": "shopify:\/\/shop_images\/SupplementFacts-Pineapple.png",
+        "img_2": "shopify:\/\/shop_images\/SupplementFacts-MixedBerry.png",
+        "background": "#ebf0ff"
+      }
+    },
+    "f3d6b65c-e558-42b7-82ea-95916364f4f9": {
+      "type": "faq",
+      "settings": {
+        "heading": "Frequently Asked Questions"
       }
     }
   },
@@ -130,6 +149,7 @@
     "167783221777f37d3f",
     "14fcd76a-8e12-4c25-a5d0-22d8edf9e583",
     "009fa302-1809-4001-80be-187fd51f794d",
-    "5824f417-dfae-47e8-a24a-c205942c7b0d"
+    "5824f417-dfae-47e8-a24a-c205942c7b0d",
+    "f3d6b65c-e558-42b7-82ea-95916364f4f9"
   ]
 }
