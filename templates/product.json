@@ -33,7 +33,10 @@
       },
       "second-section":{
         "type": "second-section"
+      },
+      "third-section":{
+        "type": "third-section"
       }
   },
-  "order": ["main", "second-section", "167783221777f37d3f"]
+  "order": ["main", "second-section", "third-section", "167783221777f37d3f"]
 }
