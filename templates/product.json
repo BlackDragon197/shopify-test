@@ -1,42 +1,106 @@
 {
   "sections": {
-      "main": {
-          "type": "main-product",
-          "blocks": {
-              "title": { "type": "title", "settings": {} },
-              "variant_picker": { "type": "variant_picker", "settings": { "picker_type": "button" } },
-              "86d667da-d1bf-4238-8184-159edc37c37b": { "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e", "settings": { "product": "{{product}}" } },
-              "buy_buttons": { "type": "buy_buttons", "settings": { "show_dynamic_checkout": true } },
-              "description": { "type": "description", "settings": {} }
-          },
-          "block_order": ["title", "variant_picker", "86d667da-d1bf-4238-8184-159edc37c37b", "buy_buttons", "description"],
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
           "settings": {
-              "enable_sticky_info": true,
-              "media_size": "large",
-              "constrain_to_viewport": true,
-              "media_fit": "contain",
-              "gallery_layout": "stacked",
-              "media_position": "left",
-              "image_zoom": "lightbox",
-              "mobile_thumbnails": "hide",
-              "hide_variants": true,
-              "enable_video_looping": false,
-              "padding_top": 36,
-              "padding_bottom": 12
           }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "86d667da-d1bf-4238-8184-159edc37c37b": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
       },
-      "167783221777f37d3f": {
-          "type": "apps",
-          "blocks": { "00192e08-6634-43c4-a1fd-587966e38818": { "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e", "settings": { "product": "{{product}}" } } },
-          "block_order": ["00192e08-6634-43c4-a1fd-587966e38818"],
-          "settings": { "include_margins": true }
-      },
-      "second-section":{
-        "type": "second-section"
-      },
-      "third-section":{
-        "type": "third-section"
+      "block_order": [
+        "title",
+        "variant_picker",
+        "86d667da-d1bf-4238-8184-159edc37c37b",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
+    },
+    "second-section": {
+      "type": "second-section",
+      "settings": {
+        "img_desc_1": "",
+        "img_desc_2": "",
+        "img_desc_3": "",
+        "img_desc_4": "",
+        "img_desc_5": "",
+        "background": ""
+      }
+    },
+    "167783221777f37d3f": {
+      "type": "apps",
+      "blocks": {
+        "00192e08-6634-43c4-a1fd-587966e38818": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "00192e08-6634-43c4-a1fd-587966e38818"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "14fcd76a-8e12-4c25-a5d0-22d8edf9e583": {
+      "type": "third-section",
+      "settings": {
+        "heading": "",
+        "heading_desc": "",
+        "label_1_head": "",
+        "label_1_desc": "",
+        "label_2_head": "",
+        "label_2_desc": "",
+        "label_3_head": "",
+        "label_3_desc": "",
+        "background": ""
+      }
+    }
   },
-  "order": ["main", "second-section", "third-section", "167783221777f37d3f"]
+  "order": [
+    "main",
+    "second-section",
+    "167783221777f37d3f",
+    "14fcd76a-8e12-4c25-a5d0-22d8edf9e583"
+  ]
 }
