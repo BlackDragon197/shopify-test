@@ -1,47 +1,77 @@
+<div id="content">
+  <div class="shopify-section">
+    <div class="container aboutus">
+      <header>
+        <h1>{{ section.settings.heading }}</h1>
+      </header>
+      <div class="video">
+        <div class="responsive-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xxxxxxx"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="textcontent">
+        {{ section.settings.textcontent }}
+      </div>
+      <div class="mission">
+        <img src="{{ section.settings.missionimage | img_url: "520x" }}" />
+        <ul>
+          {% for block in section.blocks %}
+            <li>
+              <h3>{{ block.settings.statement }}</h3>
+              <p>{{ block.settings.statementtext }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="creds">
+      {{ block.settings.cred }} {{ block.settings.text2 }}
+    </div>
+    <div class="pageBanner">
+      <div class="bannerText">
+        <h2>{{ section.settings.bannerline1 }}</h2>
+        <p>{{ section.settings.bannerline2 }}</p>
+      </div>
+      <img src="{{ section.settings.bannerimage | img_url: "520x" }}" />
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Slideshow",
-    "tag": "section",
-    "class": "slideshow",
-    "limit": 1,
+    "name": "Page Content 2",
     "settings": [
       {
         "type": "text",
-        "id": "title",
-        "label": "Slideshow"
-      }
-    ],
-    "max_blocks": 5,
-    "blocks": [
+        "label": "Page heading",
+        "id": "heading"
+      },
       {
-        "name": "Slide",
-        "type": "slide",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }
-        ]
-      }
-    ],
-    "presets": [
+        "type": "richtext",
+        "label": "Text Content",
+        "id": "textcontent"
+      },
       {
-        "name": "Slideshow",
-        "settings": {
-          "title": "Slideshow"
-        },
-        "blocks": [
-          {
-            "type": "slide"
-          }, {
-            "type": "slide"
-          }
-        ]
+        "type": "image_picker",
+        "label": "Banner image",
+        "id": "bannerimage"
+      },
+      {
+        "type": "text",
+        "label": "Banner Text line one",
+        "id": "bannerline1"
+      }, {
+        "type": "text",
+        "label": "Banner Text line two",
+        "id": "bannerline2"
       }
-    ],
-    "enabled_on": {
-      "templates": ["*"]
-    }
+    ]
   }
 {% endschema %}
