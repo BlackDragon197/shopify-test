@@ -114,6 +114,14 @@
         "img_desc_6": "",
         "background": ""
       }
+    },
+    "5824f417-dfae-47e8-a24a-c205942c7b0d": {
+      "type": "fifth-section",
+      "settings": {
+        "heading": "",
+        "heading_desc": "",
+        "background": ""
+      }
     }
   },
   "order": [
@@ -121,6 +129,7 @@
     "second-section",
     "167783221777f37d3f",
     "14fcd76a-8e12-4c25-a5d0-22d8edf9e583",
-    "009fa302-1809-4001-80be-187fd51f794d"
+    "009fa302-1809-4001-80be-187fd51f794d",
+    "5824f417-dfae-47e8-a24a-c205942c7b0d"
   ]
 }
