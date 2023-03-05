@@ -122,6 +122,12 @@
         "heading_desc": "",
         "background": ""
       }
+    },
+    "f3d6b65c-e558-42b7-82ea-95916364f4f9": {
+      "type": "faq",
+      "settings": {
+        "heading": "Frequently Asked Questions"
+      }
     }
   },
   "order": [
@@ -130,6 +136,7 @@
     "167783221777f37d3f",
     "14fcd76a-8e12-4c25-a5d0-22d8edf9e583",
     "009fa302-1809-4001-80be-187fd51f794d",
-    "5824f417-dfae-47e8-a24a-c205942c7b0d"
+    "5824f417-dfae-47e8-a24a-c205942c7b0d",
+    "f3d6b65c-e558-42b7-82ea-95916364f4f9"
   ]
 }
