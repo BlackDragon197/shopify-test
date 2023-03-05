@@ -1,0 +1,54 @@
+<div id="content">
+  <div class="shopify-section">
+    <div class="container aboutus">
+      <div class="video"></div>
+      <div class="textcontent"></div>
+      <div class="mission">
+        <ul></ul>
+      </div>
+    </div>
+
+    <div class="creds"></div>
+    <div class="pageBanner">
+      <div class="bannerText"></div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Fifth Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "heading_desc",
+        "label": "Heading description"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_2",
+        "label": "Image 2"
+      }, {
+        "type": "color",
+        "id": "background",
+        "label": "Background"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Fifth Section",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
