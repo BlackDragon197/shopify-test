@@ -67,7 +67,7 @@
         "img_desc_4": "LOW CALORIE",
         "thumb_5": "shopify:\/\/shop_images\/dairy-free.svg",
         "img_desc_5": "DAIRY FREE",
-        "bg": "#f6ffe4"
+        "bg2": "#f6ffe4"
       }
     },
     "167783221777f37d3f": {
@@ -97,7 +97,8 @@
         "label_2_head": "Slow the mind chatter",
         "label_2_desc": "Quiet any racing thoughts. Find stillness no matter what’s going on.",
         "label_3_head": "Feel lighter and brighter",
-        "label_3_desc": "Shake off whatever’s weighing on you and get in a happy headspace."
+        "label_3_desc": "Shake off whatever’s weighing on you and get in a happy headspace.",
+        "bg3": "rgb(234,231,231)"
       }
     },
     "009fa302-1809-4001-80be-187fd51f794d": {
