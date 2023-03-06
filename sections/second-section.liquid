@@ -2,7 +2,7 @@
   <div class="shopify-section flex justify-center items-center section2_bg">
     <div class=" flex-row flex justify-between items-center relative w-full mx-20">
       {% if section.settings.thumb_1 != blank and section.settings.img_desc_1 != blank %}
-        <div class="flex flex-col items-center justify-center my-20 w-1/5">
+        <div class="flex flex-col items-center justify-center my-32 w-1/5">
           <div class="flex">
             {{ section.settings.thumb_1 | image_url: width: 60 | image_tag }}
           </div>
@@ -12,7 +12,7 @@
         </div>
       {% endif %}
       {% if section.settings.thumb_2 != blank and section.settings.img_desc_2 != blank %}
-        <div class="flex flex-col items-center justify-center w-1/5 my-20">
+        <div class="flex flex-col items-center justify-center w-1/5 my-32">
           <div class="flex">
             {{ section.settings.thumb_2 | image_url: width: 60 | image_tag }}
           </div>
@@ -22,7 +22,7 @@
         </div>
       {% endif %}
       {% if section.settings.thumb_3 != blank and section.settings.img_desc_3 != blank %}
-        <div class="flex flex-col items-center justify-center w-1/5 my-20">
+        <div class="flex flex-col items-center justify-center w-1/5 my-32">
           <div class="flex">
             {{ section.settings.thumb_3 | image_url: width: 60 | image_tag }}
           </div>
@@ -32,7 +32,7 @@
         </div>
       {% endif %}
       {% if section.settings.thumb_4 != blank and section.settings.img_desc_4 != blank %}
-        <div class="flex flex-col items-center justify-center w-1/5 my-20">
+        <div class="flex flex-col items-center justify-center w-1/5 my-32">
           <div class="flex">
             {{ section.settings.thumb_4 | image_url: width: 60 | image_tag }}
           </div>
@@ -42,7 +42,7 @@
         </div>
       {% endif %}
       {% if section.settings.thumb_5 != blank and section.settings.img_desc_5 != blank %}
-        <div class="flex flex-col items-center justify-center w-1/5 my-20">
+        <div class="flex flex-col items-center justify-center w-1/5 my-32">
           <div class="flex">
             {{ section.settings.thumb_5 | image_url: width: 60 | image_tag }}
           </div>

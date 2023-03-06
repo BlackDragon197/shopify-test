@@ -522,6 +522,10 @@ video {
   margin-left: 5rem;
   margin-right: 5rem;
 }
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
 .block {
   display: block;
 }
