@@ -542,6 +542,10 @@ video {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
 .block {
   display: block;
 }
@@ -614,6 +618,9 @@ video {
 }
 .italic {
   font-style: italic;
+}
+.leading-none {
+  line-height: 1;
 }
 .outline {
   outline-style: solid;
