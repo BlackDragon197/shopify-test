@@ -501,6 +501,9 @@ video {
     max-width: 1536px;
   }
 }
+.relative {
+  position: relative;
+}
 .sticky {
   position: sticky;
 }
@@ -532,6 +535,9 @@ video {
 }
 .w-1\/5 {
   width: 20%;
+}
+.w-full {
+  width: 100%;
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
