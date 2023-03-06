@@ -507,6 +507,14 @@ video {
 .isolate {
   isolation: isolate;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .block {
   display: block;
 }
