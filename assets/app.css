@@ -526,6 +526,10 @@ video {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
+.mx-36 {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
 .block {
   display: block;
 }
