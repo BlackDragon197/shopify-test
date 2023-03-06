@@ -1,16 +1,22 @@
 <div id="content">
   <div class="shopify-section">
-    <div class="container aboutus">
-      <div class="video"></div>
-      <div class="textcontent"></div>
-      <div class="mission">
-        <ul></ul>
+    <div class="">
+      <div class="">
+        <div class="">
+          {{ section.settings.img_1 | image_url: width: 201 | image_tag }}
+        </div>
+        <div class="">
+          {{ section.settings.img_2 | image_url: width: 201 | image_tag }}
+        </div>
       </div>
-    </div>
-
-    <div class="creds"></div>
-    <div class="pageBanner">
-      <div class="bannerText"></div>
+      <div class="">
+        <h2>
+          {{ section.settings.heading }}
+        </h2>
+        <p>
+          {{ section.settings.heading_desc }}
+        </p>
+      </div>
     </div>
   </div>
 </div>
