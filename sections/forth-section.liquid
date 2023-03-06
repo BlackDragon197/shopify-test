@@ -1,16 +1,81 @@
 <div id="content">
   <div class="shopify-section">
-    <div class="container aboutus">
-      <div class="video"></div>
-      <div class="textcontent"></div>
-      <div class="mission">
-        <ul></ul>
+    <div class="">
+      <div class="">
+        {{ section.settings.heading }}
       </div>
-    </div>
-
-    <div class="creds"></div>
-    <div class="pageBanner">
-      <div class="bannerText"></div>
+      <div class="">
+        <div>
+          <div>
+            <div>
+              {{ section.settings.img_1 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_1 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_1 }}
+            </p>
+          </div>
+          <div>
+            <div>
+              {{ section.settings.img_2 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_2 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_2 }}
+            </p>
+          </div>
+          <div>
+            <div>
+              {{ section.settings.img_3 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_3 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_3 }}
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              {{ section.settings.img_4 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_4 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_4 }}
+            </p>
+          </div>
+          <div>
+            <div>
+              {{ section.settings.img_5 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_5 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_5 }}
+            </p>
+          </div>
+          <div>
+            <div>
+              {{ section.settings.img_6 | image_url: width: 280 | image_tag }}
+            </div>
+            <h5>
+              {{ section.settings.img_head_6 }}
+            </h5>
+            <p>
+              {{ section.settings.img_desc_6 }}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
