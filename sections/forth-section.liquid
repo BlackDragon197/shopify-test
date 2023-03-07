@@ -1,12 +1,12 @@
 <div id="content">
-  <div class="shopify-section">
-    <div class="">
-      <div class="">
+  <div class="shopify-section section4_bg flex">
+    <div class="flex flex-col justify-center items-center my-24">
+      <div class="flex">
         {{ section.settings.heading }}
       </div>
-      <div class="">
-        <div>
-          <div>
+      <div class="flex flex-col">
+        <div class="flex flex-row">
+          <div class="flex flex-col items-start justify-start">
             <div>
               {{ section.settings.img_1 | image_url: width: 280 | image_tag }}
             </div>
@@ -79,6 +79,11 @@
     </div>
   </div>
 </div>
+{% style %}
+  .section4_bg {
+    background: {{ section.settings.bg4 }}
+  }
+{% endstyle %}
 
 {% schema %}
   {
@@ -165,7 +170,7 @@
         "label": "Image Description 6"
       }, {
         "type": "color",
-        "id": "background",
+        "id": "bg4",
         "label": "Background"
       }
     ],
