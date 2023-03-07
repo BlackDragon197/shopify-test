@@ -1,19 +1,19 @@
 <div id="content">
-  <div class="shopify-section">
-    <div class="">
-      <div class="">
-        <div class="">
+  <div class="shopify-section flex relative">
+    <div class="flex flex-row max-w-[1240px] relative">
+      <div class="flex flex-row justify-start items-start">
+        <div class="mr-14">
           {{ section.settings.img_1 | image_url: width: 201 | image_tag }}
         </div>
         <div class="">
           {{ section.settings.img_2 | image_url: width: 201 | image_tag }}
         </div>
       </div>
-      <div class="">
-        <h2>
+      <div class="flex flex-col mx-16 relative">
+        <h2 class="font-bold text-[7rem] leading-none">
           {{ section.settings.heading }}
         </h2>
-        <p>
+        <p class="mt-7 text-[18px] leading-normal tracking-wide">
           {{ section.settings.heading_desc }}
         </p>
       </div>
