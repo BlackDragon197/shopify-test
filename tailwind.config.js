@@ -13,7 +13,11 @@ module.exports = {
     minWidth: {
       '1/2': '50%',
     },
-    extend: {},
+    extend: {
+      colors: {
+        's4-block': '#F9F6F6',
+      },
+    },
   },
   plugins: [],
 }
