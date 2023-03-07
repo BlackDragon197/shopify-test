@@ -98,7 +98,7 @@
         "label_2_desc": "Quiet any racing thoughts. Find stillness no matter what’s going on.",
         "label_3_head": "Feel lighter and brighter",
         "label_3_desc": "Shake off whatever’s weighing on you and get in a happy headspace.",
-        "bg3": "rgb(234,231,231)"
+        "bg3": "#eae7e7"
       }
     },
     "009fa302-1809-4001-80be-187fd51f794d": {
@@ -123,7 +123,7 @@
         "img_6": "shopify:\/\/shop_images\/chamomile.png",
         "img_head_6": "Ingredient 06",
         "img_desc_6": "Diminish body stress",
-        "background": "#f6ffe4"
+        "bg4": "#f6ffe4"
       }
     },
     "5824f417-dfae-47e8-a24a-c205942c7b0d": {
