@@ -543,6 +543,9 @@ video {
 .mr-28 {
   margin-right: 7rem;
 }
+.ml-40 {
+  margin-left: 10rem;
+}
 .block {
   display: block;
 }
@@ -602,6 +605,9 @@ video {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.pr-40 {
+  padding-right: 10rem;
+}
 .text-\[7rem\] {
   font-size: 7rem;
 }
@@ -611,6 +617,9 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-\[18px\] {
+  font-size: 18px;
 }
 .font-bold {
   font-weight: 700;
@@ -629,6 +638,9 @@ video {
 }
 .leading-\[20px\] {
   line-height: 20px;
+}
+.leading-\[27px\] {
+  line-height: 27px;
 }
 .outline {
   outline-style: solid;
