@@ -583,6 +583,9 @@ video {
 .mt-7 {
   margin-top: 1.75rem;
 }
+.ml-32 {
+  margin-left: 8rem;
+}
 .block {
   display: block;
 }
