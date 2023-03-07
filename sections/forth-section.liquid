@@ -1,7 +1,7 @@
 <div id="content">
   <div class="shopify-section section4_bg flex justify-center items-center">
     <div class="flex flex-col justify-center items-center my-24">
-      <div class="flex text-[7rem] leading-none my-12 max-w-4xl">
+      <div class="flex text-[7rem] leading-none my-12 max-w-[840px] text-center font-bold">
         {{ section.settings.heading }}
       </div>
       <div class="flex flex-col">
@@ -10,10 +10,10 @@
             <div>
               {{ section.settings.img_1 | image_url: width: 280 | image_tag }}
             </div>
-            <h5 class="font-bold  text-[17px] leading-[20px]">
+            <h5 class="font-bold  text-[17px] leading-[20px] mx-6">
               {{ section.settings.img_head_1 }}
             </h5>
-            <p class="text-[18px] leading-none">
+            <p class="text-[18px] leading-none mx-6">
               {{ section.settings.img_desc_1 }}
             </p>
           </div>
@@ -21,10 +21,10 @@
             <div>
               {{ section.settings.img_2 | image_url: width: 280 | image_tag }}
             </div>
-            <h5>
+            <h5 class="font-bold  text-[17px] leading-[20px] mx-6">
               {{ section.settings.img_head_2 }}
             </h5>
-            <p>
+            <p class="text-[18px] leading-none mx-6">
               {{ section.settings.img_desc_2 }}
             </p>
           </div>
@@ -32,10 +32,10 @@
             <div>
               {{ section.settings.img_3 | image_url: width: 280 | image_tag }}
             </div>
-            <h5>
+            <h5 class="font-bold  text-[17px] leading-[20px] mx-6">
               {{ section.settings.img_head_3 }}
             </h5>
-            <p>
+            <p class="text-[18px] leading-none mx-6">
               {{ section.settings.img_desc_3 }}
             </p>
           </div>
