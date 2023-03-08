@@ -5,7 +5,8 @@
     "b4cad006-68e4-4538-a717-a306f8eb8e1a": {
       "type": "footer-section",
       "settings": {
-        "footer-bg": ""
+        "footer-bg": "#242424",
+        "logo": "shopify:\/\/shop_images\/Aura_-_Main_Logo.svg"
       }
     },
     "footer": {
