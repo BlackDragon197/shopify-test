@@ -139,7 +139,8 @@
     "f3d6b65c-e558-42b7-82ea-95916364f4f9": {
       "type": "faq",
       "settings": {
-        "heading": "Frequently Asked Questions"
+        "heading": "Frequently Asked Questions",
+        "faq-bg": "#f0f0f0"
       }
     }
   },
