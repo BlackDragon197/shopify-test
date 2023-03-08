@@ -1,19 +1,103 @@
 <div id="content">
-  <div class="shopify-section">
-    <div class="container aboutus">
-      <div class="video"></div>
-      <div class="textcontent"></div>
-      <div class="mission">
-        <ul></ul>
+  <div class="shopify-section faq_bg flex justify-center items-center">
+    <div class="max-w-[732px] flex flex-col">
+      <div class="flex justify-center items-center mx-16">
+        <h2 class="font-bold text-[7rem] leading-none">
+          Frequently Asked Questions
+        </h2>
       </div>
-    </div>
+      <div class="">
+        <button class="accordion">How does it work?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet,
+          </p>
+        </div>
+        <button class="accordion">When’s the best time to take this product?</button>
+        <div class="panel">
+          <p>Enjoy Ü Relax before, during or after a stressful situation to help you loosen up. To feel the full effects and a deeper sense of calm, we recommend taking Ü Relax on an empty stomach.</p>
+        </div>
+        <button class="accordion">Does Ü Relax work better than other products?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet,
+          </p>
+        </div>
 
-    <div class="creds"></div>
-    <div class="pageBanner">
-      <div class="bannerText"></div>
+        <button class="accordion">What if I’m not happy with the blend?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet,</p>
+        </div>
+
+        <button class="accordion">What if I’m not happy with the blend?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet,</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+{% style %}
+  .faq_bg {
+    background: {{ section.settings.faq-bg }}
+  }
+  .accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 15px 15px 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 21px;
+    line-height: 60px;
+    transition: 0.4s;
+    margin: 5px 0;
+  }
+
+  .active + .panel {
+    margin-bottom: 30px;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #242424;
+    float: right;
+    margin-left: 0;
+    font-size: 24px
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    font-size: 18px;
+    line-height: 150%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+{% endstyle %}
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+</script>
 
 {% schema %}
   {
@@ -24,6 +108,10 @@
         "id": "heading",
         "label": "Heading",
         "default": "Frequently Asked Questions"
+      }, {
+        "type": "color",
+        "id": "faq-bg",
+        "label": "Background"
       }
     ],
     "presets": [
