@@ -639,6 +639,9 @@ video {
 .max-w-\[400px\] {
   max-width: 400px;
 }
+.max-w-\[1338px\] {
+  max-width: 1338px;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -698,6 +701,10 @@ video {
 }
 .text-\[14px\] {
   font-size: 14px;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .font-bold {
   font-weight: 700;
