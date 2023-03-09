@@ -686,6 +686,9 @@ video {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.rounded-\[60px\] {
+  border-radius: 60px;
+}
 .border {
   border-width: 1px;
 }

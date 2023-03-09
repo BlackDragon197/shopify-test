@@ -56,7 +56,7 @@
             id = "ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="product-form__submit button bg-soft-black border-r-[60px] h-[60px] w-full {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}{% endif %}"
+            class="product-form__submit button bg-soft-black rounded-[60px] h-[60px] w-full {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}{% endif %}"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
               disabled
             {% endif %}
