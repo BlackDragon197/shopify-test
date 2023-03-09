@@ -29,46 +29,6 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Black-Italic.eot');
-    src: url('Moderat-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Black.eot');
-    src: url('Moderat-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Black.woff2') format('woff2'),
-        url('Moderat-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Black.eot');
-    src: url('Moderat-Condensed-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Black.woff2') format('woff2'),
-        url('Moderat-Condensed-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Bold.eot');
-    src: url('Moderat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Bold.woff2') format('woff2'),
-        url('Moderat-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Moderat Condensed';
     src: url('Moderat-Condensed-Black.eot');
     src: url('Moderat-Condensed-Black.eot?#iefix') format('embedded-opentype'),
@@ -86,76 +46,6 @@
         url('Moderat-Bold-Italic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Black.eot');
-    src: url('Moderat-Condensed-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Black.woff2') format('woff2'),
-        url('Moderat-Condensed-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Bold-Italic.eot');
-    src: url('Moderat-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Black.eot');
-    src: url('Moderat-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Black.woff2') format('woff2'),
-        url('Moderat-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Bold.eot');
-    src: url('Moderat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Bold.woff2') format('woff2'),
-        url('Moderat-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Bold-Italic.eot');
-    src: url('Moderat-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Black-Italic.eot');
-    src: url('Moderat-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Bold.eot');
-    src: url('Moderat-Condensed-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Bold.woff2') format('woff2'),
-        url('Moderat-Condensed-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
 }
 
 @font-face {
@@ -190,66 +80,6 @@
 
 @font-face {
     font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Bold.eot');
-    src: url('Moderat-Condensed-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Bold.woff2') format('woff2'),
-        url('Moderat-Condensed-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Bold-Italic.eot');
-    src: url('Moderat-Condensed-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Black-Italic.eot');
-    src: url('Moderat-Condensed-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Black-Italic.eot');
-    src: url('Moderat-Condensed-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Bold-Italic.eot');
-    src: url('Moderat-Condensed-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Light-Italic.eot');
-    src: url('Moderat-Condensed-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
     src: url('Moderat-Condensed-Light-Italic.eot');
     src: url('Moderat-Condensed-Light-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Condensed-Light-Italic.woff2') format('woff2'),
@@ -266,76 +96,6 @@
         url('Moderat-Condensed-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Light.eot');
-    src: url('Moderat-Condensed-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Light.woff2') format('woff2'),
-        url('Moderat-Condensed-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Light.eot');
-    src: url('Moderat-Condensed-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Light.woff2') format('woff2'),
-        url('Moderat-Condensed-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Light-Italic.eot');
-    src: url('Moderat-Condensed-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Medium.eot');
-    src: url('Moderat-Condensed-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Medium.woff2') format('woff2'),
-        url('Moderat-Condensed-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Medium-Italic.eot');
-    src: url('Moderat-Condensed-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Medium.eot');
-    src: url('Moderat-Condensed-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Medium.woff2') format('woff2'),
-        url('Moderat-Condensed-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Medium-Italic.eot');
-    src: url('Moderat-Condensed-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
 }
 
 @font-face {
@@ -380,46 +140,6 @@
 
 @font-face {
     font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Regular-Italic.eot');
-    src: url('Moderat-Condensed-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Regular-Italic.eot');
-    src: url('Moderat-Condensed-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Regular.eot');
-    src: url('Moderat-Condensed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Regular.woff2') format('woff2'),
-        url('Moderat-Condensed-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Regular.eot');
-    src: url('Moderat-Condensed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Regular.woff2') format('woff2'),
-        url('Moderat-Condensed-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
     src: url('Moderat-Condensed-Regular.eot');
     src: url('Moderat-Condensed-Regular.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Condensed-Regular.woff2') format('woff2'),
@@ -449,16 +169,6 @@
 }
 
 @font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Thin-Italic.eot');
-    src: url('Moderat-Condensed-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
     font-family: 'Moderat Extended';
     src: url('Moderat-Extended-Black.eot');
     src: url('Moderat-Extended-Black.eot?#iefix') format('embedded-opentype'),
@@ -466,56 +176,6 @@
         url('Moderat-Extended-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Thin.eot');
-    src: url('Moderat-Condensed-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Thin.woff2') format('woff2'),
-        url('Moderat-Condensed-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Black.eot');
-    src: url('Moderat-Extended-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Black.woff2') format('woff2'),
-        url('Moderat-Extended-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Black.eot');
-    src: url('Moderat-Extended-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Black.woff2') format('woff2'),
-        url('Moderat-Extended-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Thin.eot');
-    src: url('Moderat-Condensed-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Thin.woff2') format('woff2'),
-        url('Moderat-Condensed-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Condensed';
-    src: url('Moderat-Condensed-Thin-Italic.eot');
-    src: url('Moderat-Condensed-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Condensed-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Condensed-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
 }
 
 @font-face {
@@ -536,66 +196,6 @@
         url('Moderat-Extended-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Black-Italic.eot');
-    src: url('Moderat-Extended-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Bold-Italic.eot');
-    src: url('Moderat-Extended-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Black-Italic.eot');
-    src: url('Moderat-Extended-Black-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Black-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Black-Italic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Bold.eot');
-    src: url('Moderat-Extended-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Bold.woff2') format('woff2'),
-        url('Moderat-Extended-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Bold.eot');
-    src: url('Moderat-Extended-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Bold.woff2') format('woff2'),
-        url('Moderat-Extended-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Bold-Italic.eot');
-    src: url('Moderat-Extended-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Bold-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Bold-Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
 }
 
 @font-face {
@@ -635,106 +235,6 @@
         url('Moderat-Extended-Regular.woff2') format('woff2'),
         url('Moderat-Extended-Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Light-Italic.eot');
-    src: url('Moderat-Extended-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Light.eot');
-    src: url('Moderat-Extended-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Light.woff2') format('woff2'),
-        url('Moderat-Extended-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Regular.eot');
-    src: url('Moderat-Extended-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Regular.woff2') format('woff2'),
-        url('Moderat-Extended-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Regular.eot');
-    src: url('Moderat-Extended-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Regular.woff2') format('woff2'),
-        url('Moderat-Extended-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Light.eot');
-    src: url('Moderat-Extended-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Light.woff2') format('woff2'),
-        url('Moderat-Extended-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Medium-Italic.eot');
-    src: url('Moderat-Extended-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Light-Italic.eot');
-    src: url('Moderat-Extended-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Medium.eot');
-    src: url('Moderat-Extended-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Medium.woff2') format('woff2'),
-        url('Moderat-Extended-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Medium-Italic.eot');
-    src: url('Moderat-Extended-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Medium.eot');
-    src: url('Moderat-Extended-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Medium.woff2') format('woff2'),
-        url('Moderat-Extended-Medium.woff') format('woff');
-    font-weight: 500;
     font-style: normal;
 }
 
@@ -780,16 +280,6 @@
 
 @font-face {
     font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Thin-Italic.eot');
-    src: url('Moderat-Extended-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
     src: url('Moderat-Extended-Regular-Italic.eot');
     src: url('Moderat-Extended-Regular-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Extended-Regular-Italic.woff2') format('woff2'),
@@ -805,116 +295,6 @@
         url('Moderat-Extended-Thin.woff2') format('woff2'),
         url('Moderat-Extended-Thin.woff') format('woff');
     font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Thin-Italic.eot');
-    src: url('Moderat-Extended-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Light-Italic.eot');
-    src: url('Moderat-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Regular-Italic.eot');
-    src: url('Moderat-Extended-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Light.eot');
-    src: url('Moderat-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Light.woff2') format('woff2'),
-        url('Moderat-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Thin.eot');
-    src: url('Moderat-Extended-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Thin.woff2') format('woff2'),
-        url('Moderat-Extended-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Light-Italic.eot');
-    src: url('Moderat-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Light-Italic.woff2') format('woff2'),
-        url('Moderat-Light-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Thin.eot');
-    src: url('Moderat-Extended-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Thin.woff2') format('woff2'),
-        url('Moderat-Extended-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('Moderat-Extended-Regular-Italic.eot');
-    src: url('Moderat-Extended-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Extended-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Extended-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Light.eot');
-    src: url('Moderat-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Light.woff2') format('woff2'),
-        url('Moderat-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Medium.eot');
-    src: url('Moderat-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Medium.woff2') format('woff2'),
-        url('Moderat-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Medium.eot');
-    src: url('Moderat-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Medium.woff2') format('woff2'),
-        url('Moderat-Medium.woff') format('woff');
-    font-weight: 500;
     font-style: normal;
 }
 
@@ -959,32 +339,12 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Mono-Bold.eot');
-    src: url('Moderat-Mono-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Bold.woff2') format('woff2'),
-        url('Moderat-Mono-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Moderat Mono';
     src: url('Moderat-Mono-Regular.eot');
     src: url('Moderat-Mono-Regular.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Mono-Regular.woff2') format('woff2'),
         url('Moderat-Mono-Regular.woff') format('woff');
     font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Light.eot');
-    src: url('Moderat-Mono-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Light.woff2') format('woff2'),
-        url('Moderat-Mono-Light.woff') format('woff');
-    font-weight: 300;
     font-style: normal;
 }
 
@@ -1020,172 +380,12 @@
 
 @font-face {
     font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Medium.eot');
-    src: url('Moderat-Mono-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Medium.woff2') format('woff2'),
-        url('Moderat-Mono-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Medium-Italic.eot');
-    src: url('Moderat-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
     src: url('Moderat-Mono-Thin.eot');
     src: url('Moderat-Mono-Thin.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Mono-Thin.woff2') format('woff2'),
         url('Moderat-Mono-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Thin.eot');
-    src: url('Moderat-Mono-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Thin.woff2') format('woff2'),
-        url('Moderat-Mono-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Regular.eot');
-    src: url('Moderat-Mono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Regular.woff2') format('woff2'),
-        url('Moderat-Mono-Regular.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Mono-Bold.eot');
-    src: url('Moderat-Mono-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Bold.woff2') format('woff2'),
-        url('Moderat-Mono-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Black.eot');
-    src: url('Moderat-Mono-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Black.woff2') format('woff2'),
-        url('Moderat-Mono-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Medium-Italic.eot');
-    src: url('Moderat-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Medium-Italic.woff2') format('woff2'),
-        url('Moderat-Medium-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Regular.eot');
-    src: url('Moderat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Regular.woff2') format('woff2'),
-        url('Moderat-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Black.eot');
-    src: url('Moderat-Mono-Black.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Black.woff2') format('woff2'),
-        url('Moderat-Mono-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Medium.eot');
-    src: url('Moderat-Mono-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Medium.woff2') format('woff2'),
-        url('Moderat-Mono-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Regular.eot');
-    src: url('Moderat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Regular.woff2') format('woff2'),
-        url('Moderat-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Thin.eot');
-    src: url('Moderat-Mono-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Thin.woff2') format('woff2'),
-        url('Moderat-Mono-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Regular.eot');
-    src: url('Moderat-Mono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Regular.woff2') format('woff2'),
-        url('Moderat-Mono-Regular.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat Mono';
-    src: url('Moderat-Mono-Light.eot');
-    src: url('Moderat-Mono-Light.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Mono-Light.woff2') format('woff2'),
-        url('Moderat-Mono-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Regular-Italic.eot');
-    src: url('Moderat-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Regular-Italic.eot');
-    src: url('Moderat-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Regular-Italic.woff2') format('woff2'),
-        url('Moderat-Regular-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
 }
 
 @font-face {
@@ -1210,26 +410,6 @@
 
 @font-face {
     font-family: 'Moderat';
-    src: url('Moderat-Thin.eot');
-    src: url('Moderat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Thin.woff2') format('woff2'),
-        url('Moderat-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Thin.eot');
-    src: url('Moderat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Thin.woff2') format('woff2'),
-        url('Moderat-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Moderat';
     src: url('Moderat-Thin-Italic.eot');
     src: url('Moderat-Thin-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Thin-Italic.woff2') format('woff2'),
@@ -1237,24 +417,3 @@
     font-weight: 100;
     font-style: italic;
 }
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Thin-Italic.eot');
-    src: url('Moderat-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Thin-Italic.eot');
-    src: url('Moderat-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Thin-Italic.woff2') format('woff2'),
-        url('Moderat-Thin-Italic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-}
-
