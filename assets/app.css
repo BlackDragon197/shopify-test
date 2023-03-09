@@ -600,6 +600,12 @@ video {
 .mr-48 {
   margin-right: 12rem;
 }
+.mr-96 {
+  margin-right: 24rem;
+}
+.ml-16 {
+  margin-left: 4rem;
+}
 .block {
   display: block;
 }
