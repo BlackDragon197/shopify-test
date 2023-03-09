@@ -24,7 +24,7 @@
     src: url('Moderat-Bold.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Bold.woff2') format('woff2'),
         url('Moderat-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -44,7 +44,7 @@
     src: url('Moderat-Bold-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Bold-Italic.woff2') format('woff2'),
         url('Moderat-Bold-Italic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -54,7 +54,7 @@
     src: url('Moderat-Condensed-Bold.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Condensed-Bold.woff2') format('woff2'),
         url('Moderat-Condensed-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -74,7 +74,7 @@
     src: url('Moderat-Condensed-Bold-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Condensed-Bold-Italic.woff2') format('woff2'),
         url('Moderat-Condensed-Bold-Italic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -184,7 +184,7 @@
     src: url('Moderat-Extended-Bold-Italic.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Extended-Bold-Italic.woff2') format('woff2'),
         url('Moderat-Extended-Bold-Italic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -194,7 +194,7 @@
     src: url('Moderat-Extended-Bold.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Extended-Bold.woff2') format('woff2'),
         url('Moderat-Extended-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -324,7 +324,7 @@
     src: url('Moderat-Mono-Bold.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Mono-Bold.woff2') format('woff2'),
         url('Moderat-Mono-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
