@@ -57,7 +57,7 @@ block: block
       {% endif %}
       {% if option_disabled %}
       class="disabled"
-      {% endif %}> Here is the value: {{ product.options }}
+      {% endif %}>
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
