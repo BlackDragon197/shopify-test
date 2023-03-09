@@ -36,13 +36,17 @@
   </div>
 </div>
 <script>
-  const el = document.querySelector("label[title='6-Pack']");
-  el.classList.add('mafaka')
+  setTimeout(mem, 4000)
+  const mem = () => {
+    const el = document.querySelector("label[title='6-Pack']");
+    el.classList.add('mafaka')
 
-  var list;
-  list = document.querySelectorAll("label[title='6-Pack']");
-  for (var i = 0; i < list.length; ++ i) {
-    list[i].classList.add('cf');
+    var list;
+    list = document.querySelectorAll("label[title='6-Pack']");
+    for (var i = 0; i < list.length; ++ i) {
+      list[i].classList.add('cf');
+    }
+    console.log('meme')
   }
 </script>
 {% style %}
