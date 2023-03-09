@@ -696,6 +696,9 @@ video {
 .font-moderat {
   font-family: Moderat;
 }
+.font-moderat-c {
+  font-family: Moderat Condensed;
+}
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -737,6 +740,9 @@ video {
 }
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+.tracking-\[4px\] {
+  letter-spacing: 4px;
 }
 .text-white {
   --tw-text-opacity: 1;
