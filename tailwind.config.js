@@ -13,6 +13,9 @@ module.exports = {
     minWidth: {
       '1/2': '50%',
     },
+    fontFamily:{
+      "moderat": "Moderat",
+    },
     extend: {
       colors: {
         's4-block': '#F9F6F6',
