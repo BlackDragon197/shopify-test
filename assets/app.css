@@ -693,6 +693,9 @@ video {
 .text-center {
   text-align: center;
 }
+.font-moderat {
+  font-family: Moderat;
+}
 .text-\[14px\] {
   font-size: 14px;
 }
