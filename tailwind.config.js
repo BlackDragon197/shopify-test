@@ -14,7 +14,7 @@ module.exports = {
       '1/2': '50%',
     },
     fontFamily:{
-      "moderat": "Moderat",
+      "moderat": "'Moderat'",
     },
     extend: {
       colors: {
