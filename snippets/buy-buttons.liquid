@@ -137,7 +137,8 @@
   const mek = () => {
     let label1;
     label1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1']");
-    label1[0].classList.add('sfdfsdf');
+    let lab1val = label1[0].innerHTML.split('$')[1]
+    console.log(lab1val)
     //label1[0].innerHTML = 6
       }
       setTimeout(mek, 3000)
