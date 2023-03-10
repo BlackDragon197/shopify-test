@@ -139,8 +139,8 @@
     label1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1']");
     let lab1val = label1[0].innerHTML.split('$')[1]
 
-    label1[0].insertAdjacentHTML("afterend",
-    "<span>" + {{ product.price }} +
+    label1[0].insertAdjacentHTML("beforeend",
+    "<span>" + {{ product.price | divided_by: 100 }} +
                 "</span>");
     console.log(lab1val.split('<')[0])
     //label1[0].innerHTML = 6
