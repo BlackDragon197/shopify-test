@@ -151,7 +151,7 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
-    let on = data.variants.forEach((el) => {
+    let on = data.variants.map((el) => {
     if(el.id == label1[0]){
       console.log(el.price)
     }
