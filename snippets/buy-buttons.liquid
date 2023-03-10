@@ -140,10 +140,12 @@
 
     label1[0].addEventListener("change", updateValue);
 
+    {% assign full_url = request.host | append: request.path %}
+
 function updateValue(e) {
   //log.textContent = e.target.value;
   console.log(e.target.value)
-  console.log(`{{page.url}}`)
+  console.log({{ full_url }})
 }
       }
       setTimeout(mek, 3000)
