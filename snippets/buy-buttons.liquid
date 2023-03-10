@@ -151,12 +151,8 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
-    let on = data.variants.map((el) => {
-    if(el.id == label1[0]){
-      console.log(el.price)
-    }
-    })
-    console.log(data);
+    let on = data.variants.find(({ id }) => id === label1[0]))
+    console.log(on);
   })
   .catch(function () {
     console.log('Booo');
