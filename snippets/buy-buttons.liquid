@@ -151,7 +151,7 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
-    let on = data.variants.find(({ id }) => id === label1[0])
+    let on = data.variants
     console.log(on);
   })
   .catch(function () {
