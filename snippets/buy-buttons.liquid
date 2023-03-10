@@ -155,8 +155,8 @@ fetch(url)
   return el.id == e.target.value;
 }
     let vari = data.variants.find(getPrice)
-    let price = vari.price
-    let pos = price.length -2
+    let price = vari.price;
+    let pos = price.length -2;
     price = price.substring(0, pos) + '.' + price.substring(pos, price.length);
     console.log(price);
   })
