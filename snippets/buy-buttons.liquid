@@ -157,7 +157,7 @@ fetch(url)
     let vari = data.variants.find(getPrice)
     let price = vari.price;
     let pos = price.toString().length -2;
-    price = price.toString().substring(0, pos);
+    price = price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
     console.log(price);
   })
   .catch(function () {
