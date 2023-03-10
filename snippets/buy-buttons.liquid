@@ -152,7 +152,7 @@ fetch(url)
   })
   .then(function (data) {
     function getPrice(el) {
-  return el.id === e.target.value;
+  return el.id == e.target.value;
 }
     let vari = data.variants.find(getPrice)
     console.log(vari);
