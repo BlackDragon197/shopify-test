@@ -140,8 +140,7 @@
 
     label1[0].addEventListener("change", updateValue);
 
-    {% assign full_url = request.host | append: request.path %}
-
+    let spanLabel = document.querySelectorAll("span.rc-radio__label");
 function updateValue(e) {
   //log.textContent = e.target.value;
   console.log(e.target.value)
@@ -157,8 +156,9 @@ fetch(url)
     let vari = data.variants.find(getPrice)
     let price = vari.price;
     let pos = price.toString().length -2;
-    price = price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
+    price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
     console.log(price);
+    spanLabel[0].insertAdjacentHTML('afterend', price)
   })
   .catch(function () {
     console.log('Booo');
