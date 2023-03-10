@@ -151,7 +151,10 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
-    let vari = data.variants
+    function getPrice(el) {
+  return el.id === label1[0];
+}
+    let vari = data.variants.find(getPrice)
     console.log(vari);
   })
   .catch(function () {
