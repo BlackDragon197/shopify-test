@@ -151,6 +151,7 @@ fetch(url)
     return response.json();
   })
   .then(function (data) {
+    let vari = data.variants
     console.log(data);
   })
   .catch(function () {
