@@ -32,6 +32,17 @@
 }
 
 @font-face {
+    font-family: 'Moderati';
+    src: url('Moderat-Bold.eot');
+    src: url('Moderat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Moderat-Bold.woff2') format('woff2'),
+        url('Moderat-Bold.woff') format('woff'),
+        url('Moderat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Moderat Condensed';
     src: url('Moderat-Condensed-Black.eot');
     src: url('Moderat-Condensed-Black.eot?#iefix') format('embedded-opentype'),
