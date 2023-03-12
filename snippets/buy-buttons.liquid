@@ -1,47 +1,63 @@
 {% comment %}
-  Renders product buy-buttons.
-  Accepts:
-  - product: {Object} product object.
-  - block: {Object} passing the block information.
-  - product_form_id: {String} product form id.
-  - section_id: {String} id of section to which this snippet belongs.
-  - show_pickup_availability:: {Boolean} for the pickup availability. If true the pickup availability is rendered, false - not rendered (optional).
+Renders product buy-buttons.
+Accepts:
+- product: {Object} product object.
+- block: {Object} passing the block information.
+- product_form_id: {String} product form id.
+- section_id: {String} id of section to which this snippet belongs.
+- show_pickup_availability:: {Boolean} for the pickup availability. If true the pickup availability is rendered, false - not rendered (optional).
 
-  Usage:
-  {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
+Usage:
+{% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
 {% endcomment %}
 <div {{ block.shopify_attributes }}>
   {%- if product != blank -%}
     <product-form class="product-form">
-      <div class="product-form__error-message-wrapper" role="alert" hidden>
+      <div
+        class="product-form__error-message-wrapper"
+        role="alert"
+        hidden>
         <svg
           aria-hidden="true"
           focusable="false"
           class="icon icon-error"
-          viewBox="0 0 13 13"
-        >
-          <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
-          <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
-          <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
-          <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
+          viewBox="0 0 13 13">
+          <circle
+            cx="6.5"
+            cy="6.50049"
+            r="5.5"
+            stroke="white"
+            stroke-width="2" />
+          <circle
+            cx="6.5"
+            cy="6.5"
+            r="5.5"
+            fill="#EB001B"
+            stroke="#EB001B"
+            stroke-width="0.7" />
+          <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white" />
+          <path
+            d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z"
+            fill="white"
+            stroke="#EB001B"
+            stroke-width="0.7">
         </svg>
         <span class="product-form__error-message"></span>
       </div>
 
       {%- form 'product',
-        product,
-        id: product_form_id,
-        class: 'form',
-        novalidate: 'novalidate',
-        data-type: 'add-to-cart-form'
-      -%}
+ product,
+ id: product_form_id,
+ class: 'form',
+ novalidate: 'novalidate',
+ data-type: 'add-to-cart-form'
+ -%}
         <input
           type="hidden"
           name="id"
           value="{{ product.selected_or_first_available_variant.id }}"
           disabled
-          class="product-variant-id"
-        >
+          class="product-variant-id">
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
@@ -53,14 +69,13 @@
             endif
           -%}
           <button
-            id = "ProductSubmitButton-{{ section_id }}"
+            id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
             class="text-white bg-soft-black rounded-[60px] h-[60px] w-full {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}{% endif %}"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
-              disabled
-            {% endif %}
-          >
+            disabled
+            {% endif %}>
             <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
@@ -74,69 +89,69 @@
                 focusable="false"
                 class="spinner"
                 viewBox="0 0 66 66"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-              </svg>
-            </div>
-          </button>
-          {%- if block.settings.show_dynamic_checkout -%}
-            {{ form | payment_button }}
-          {%- endif -%}
-        </div>
-      {%- endform -%}
-    </product-form>
-  {%- else -%}
-    <div class="product-form">
-      <div class="product-form__buttons form">
-        <button
-          type="submit"
-          name="add"
-          class="product-form__submit button button--full-width button--primary"
-          disabled
-        >
-          {{ 'products.product.sold_out' | t }}
-        </button>
-      </div>
-    </div>
-  {%- endif -%}
-
-  {%- if show_pickup_availability -%}
-    {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
-
-    {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
-      | where: 'pick_up_enabled', true
-    -%}
-
-    <pickup-availability
-      class="product__pickup-availabilities no-js-hidden quick-add-hidden"
-      {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}
-        available
-      {% endif %}
-      data-root-url="{{ routes.root_url }}"
-      data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-      data-has-only-default-variant="{{ product.has_only_default_variant }}"
-    >
-      <template>
-        <pickup-availability-preview class="pickup-availability-preview">
-          {% render 'icon-unavailable' %}
-          <div class="pickup-availability-info">
-            <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
-            <button class="pickup-availability-button link link--text underlined-link">
-              {{ 'products.product.pickup_availability.refresh' | t }}
-            </button>
+                xmlns="http://www.w3.org/2000/svg">
+                <circle
+                  class="path"
+                  fill="none"
+                  stroke-width="6"
+                  cx="33"
+                  cy="33"
+                  r="30"></circle>
+            </svg>
           </div>
-        </pickup-availability-preview>
-      </template>
-    </pickup-availability>
+        </button>
+        {%- if block.settings.show_dynamic_checkout -%}
+          {{ form | payment_button }}
+        {%- endif -%}
+      </div>
+    {%- endform -%}
+  </product-form>
+{%- else -%}
+  <div class="product-form">
+    <div class="product-form__buttons form">
+      <button
+        type="submit"
+        name="add"
+        class="product-form__submit button button--full-width button--primary"
+        disabled>
+        {{ 'products.product.sold_out' | t }}
+      </button>
+    </div>
+  </div>
+{%- endif -%}
 
-    <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-  {%- endif -%}
-</div>
-<script defer>
-  
-  let script = document.querySelectorAll("div.shopify-block-86d667da-d1bf-4238-8184-159edc37c37b")
-  console.log('script: ', script)
+{%- if show_pickup_availability -%}
+  {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+
+  {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
+    | where: 'pick_up_enabled', true -%}
+
+  <pickup-availability
+    class="product__pickup-availabilities no-js-hidden quick-add-hidden"
+    {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}
+    available
+    {% endif %}
+    data-root-url="{{ routes.root_url }}"
+    data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+    data-has-only-default-variant="{{ product.has_only_default_variant }}">
+    <template>
+      <pickup-availability-preview class="pickup-availability-preview">
+        {% render 'icon-unavailable' %}
+        <div class="pickup-availability-info">
+          <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
+          <button class="pickup-availability-button link link--text underlined-link">
+            {{ 'products.product.pickup_availability.refresh' | t }}
+          </button>
+        </div>
+      </pickup-availability-preview>
+    </template>
+  </pickup-availability>
+
+  <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}</div><script defer>
+
+let script = document.querySelectorAll("div.shopify-block-86d667da-d1bf-4238-8184-159edc37c37b")
+console.log('script: ', script)
   const mek = () => {
     let label1 = document.querySelectorAll("input.product-variant-id");
     label1[0].addEventListener("change", updateValue);
@@ -144,15 +159,15 @@
     let radio1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1'] span.rc-radio__label");
     let radio2 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio2'] span.rc-radio__label");
     let radioPrice = '<span id="price-1" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
-    let radioPrice2 = '<span id="price-2" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
-    radio1[0].innerText = radio1[0].innerText.split("$")[0]
+let radioPrice2 = '<span id="price-2" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
+radio1[0].innerText = radio1[0].innerText.split("$")[0]
     radio2[0].innerText = radio2[0].innerText.split("$")[0]
     console.log('radio: ', radioPrice);
     spanLabel[0].insertAdjacentHTML('afterend', radioPrice);
     spanLabel[1].insertAdjacentHTML('afterend', radioPrice2);
 
 function updateValue(e) {
-  let url = `{{product.url}}`+'.js'
+  let url = `{{ product.url }}`+'.js'
 fetch(url)
   .then(function (response) {
     return response.json();
@@ -163,33 +178,38 @@ fetch(url)
 }
     let vari = data.variants.find(getPrice)
     let price = vari.price;
+    let pack = vari.options[1].split('-')[0]
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
     price_span = '<span id="price-1" class="prices">'+ price + '</span>'
-    console.log(price);
     let span1 = document.getElementById('price-1');
     let span2 = document.getElementById('price-2');
+    let priceBottle = price / pack
+    let flex1 = '<div class="wrap">' + priceBottle + '</div>'
     span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price_span)
+    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', flex1)
     span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', price_span)
-  })
-  .catch(function () {
-    console.log('Booo');
-  });
-}
-      }
-      setTimeout(mek, 1000)
-</script>
+      })
+      .catch(function () {
+        console.log('Booo');
+      });
+    }
+          }
+          setTimeout(mek, 1000)</script>
 <style>
-  .prices{
+  .prices {
     position: absolute;
     right: 15px;
   }
-  .rc-radio{
+  .rc-radio {
     background-color: #EFEDED;
   }
   .rc-radio--active {
     background-color: white !important;
     outline: 2px solid #242424;
+  }
+  .rc-radio {
+    flex-wrap: wrap;
   }
   #EFEDED
 </style>
