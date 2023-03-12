@@ -212,7 +212,7 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     let priceBottle = Number(price.substring(1, price.length)) / Number(pack)
     let bot1 = '$' + Math.round(priceBottle * 100) / 100  + '/per bottle</div>'
   span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
-wrap1?wrap1.innerHTML = bot1
+wrap1?wrap1.innerHTML = bot1:{}
             spanLabel[0].insertAdjacentHTML('afterend', flex1)
                                                  
             span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
