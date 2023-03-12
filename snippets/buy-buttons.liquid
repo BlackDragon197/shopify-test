@@ -203,7 +203,7 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     }
     let vari = data.variants.find(getPrice)
     let price = vari.price;
-    let subPrice = vari.selling_plan_allocations.per_delivery_price
+    let subPrice = vari.selling_plan_allocations[0].per_delivery_price
     let pack = vari.options[1].split('-')[0]
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
