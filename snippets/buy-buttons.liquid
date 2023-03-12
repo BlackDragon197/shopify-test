@@ -181,14 +181,14 @@ fetch(url)
     let pack = vari.options[1].split('-')[0]
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
-    price_span = '<span id="price-1" class="prices">'+ price + '</span>'
+    priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
     let span1 = document.getElementById('price-1');
     let span2 = document.getElementById('price-2');
     let priceBottle = Number(priceBottle) / Number(pack)
     let flex1 = '<div class="wrap">' + priceBottle + '</div>'
-    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price_span)
-    span1.insertAdjacentHTML('afterend', flex1)
-    span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', price_span)
+    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
+    spanLabel[0].insertAdjacentHTML('afterend', flex1)
+    span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
       })
       .catch(function () {
         console.log('Booo');
@@ -210,6 +210,9 @@ fetch(url)
   }
   .rc-radio {
     flex-wrap: wrap;
+  }
+  .wrap{
+    flex-basis: 100%;
   }
   #EFEDED
 </style>
