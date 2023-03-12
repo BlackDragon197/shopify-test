@@ -143,7 +143,7 @@
     let spanLabel = document.querySelectorAll("span.rc-radio__label");
     let radio1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1']");
     let radioPrice = '<span id="price-1" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
-    radio1[0].innerText = radio1[0].innerText.split("$")[0]
+    //radio1[0].innerText = radio1[0].innerText.split("$")[0]
     console.log('radio: ', radioPrice);
     spanLabel[0].insertAdjacentHTML('afterend', radioPrice);
 
