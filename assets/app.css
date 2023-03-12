@@ -715,6 +715,9 @@ video {
 .font-moderat-c {
   font-family: Moderat Condensed;
 }
+.font-\[Moderati\] {
+  font-family: Moderati;
+}
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -729,6 +732,9 @@ video {
 }
 .text-\[7rem\] {
   font-size: 7rem;
+}
+.text-\[60px\] {
+  font-size: 60px;
 }
 .font-bold {
   font-weight: 700;
