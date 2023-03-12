@@ -513,11 +513,14 @@ video {
 .isolate {
   isolation: isolate;
 }
+.m-0 {
+  margin: 0px;
+}
 .m-5 {
   margin: 1.25rem;
 }
-.m-0 {
-  margin: 0px;
+.m-no {
+  margin: 0 !important;
 }
 .mx-16 {
   margin-left: 4rem;
@@ -648,14 +651,14 @@ video {
 .max-w-\[1338px\] {
   max-width: 1338px;
 }
+.max-w-\[432px\] {
+  max-width: 432px;
+}
 .max-w-\[732px\] {
   max-width: 732px;
 }
 .max-w-\[880px\] {
   max-width: 880px;
-}
-.max-w-\[432px\] {
-  max-width: 432px;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -704,9 +707,6 @@ video {
 .border {
   border-width: 1px;
 }
-.border-r-\[60px\] {
-  border-right-width: 60px;
-}
 .bg-s4-block {
   --tw-bg-opacity: 1;
   background-color: rgb(249 246 246 / var(--tw-bg-opacity));
@@ -721,14 +721,11 @@ video {
 .text-center {
   text-align: center;
 }
-.font-moderat {
-  font-family: Moderat;
-}
-.font-moderat-c {
-  font-family: Moderat Condensed;
-}
 .font-\[Moderati\] {
   font-family: Moderati;
+}
+.font-moderat {
+  font-family: Moderat;
 }
 .text-\[14px\] {
   font-size: 14px;
@@ -739,23 +736,26 @@ video {
 .text-\[18px\] {
   font-size: 18px;
 }
+.text-\[48px\] {
+  font-size: 48px;
+}
 .text-\[5rem\] {
   font-size: 5rem;
-}
-.text-\[7rem\] {
-  font-size: 7rem;
 }
 .text-\[60px\] {
   font-size: 60px;
 }
-.text-\[48px\] {
-  font-size: 48px;
+.text-\[7rem\] {
+  font-size: 7rem;
 }
 .font-bold {
   font-weight: 700;
 }
 .font-extrabold {
   font-weight: 800;
+}
+.font-normal {
+  font-weight: 400;
 }
 .uppercase {
   text-transform: uppercase;
@@ -772,14 +772,20 @@ video {
 .leading-\[27px\] {
   line-height: 27px;
 }
+.leading-\[60px\] {
+  line-height: 60px;
+}
 .leading-none {
   line-height: 1;
 }
 .leading-normal {
   line-height: 1.5;
 }
-.leading-\[60px\] {
-  line-height: 60px;
+.leading-\[150\%\] {
+  line-height: 150%;
+}
+.tracking-\[0\.04rem\] {
+  letter-spacing: 0.04rem;
 }
 .tracking-\[4px\] {
   letter-spacing: 4px;
@@ -787,16 +793,16 @@ video {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
-.tracking-\[0\.04rem\] {
-  letter-spacing: 0.04rem;
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(249 246 246 / var(--tw-text-opacity));
+.tracking-\[0\.03rem\] {
+  letter-spacing: 0.03rem;
 }
 .text-soft-black {
   --tw-text-opacity: 1;
   color: rgb(36 36 36 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(249 246 246 / var(--tw-text-opacity));
 }
 .outline {
   outline-style: solid;

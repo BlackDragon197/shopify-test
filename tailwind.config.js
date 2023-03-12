@@ -23,6 +23,9 @@ module.exports = {
         'white' : '#F9F6F6',
         'soft-black': '#242424',
       },
+      margin: {
+        'no': '0 !important',
+      }
     },
   },
   plugins: [],

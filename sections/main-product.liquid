@@ -81,7 +81,7 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="m-0 product__title text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
+              <div class="m-no product__title text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
@@ -89,7 +89,7 @@
                   </h2>
                 </a>
               </div>
-              <div class="m-0 text-[17px] leading-[20px] tracking-[0.04rem] text-soft-black font-bold" {{ block.shopify_attributes }}>
+              <div class="m-no text-[17px] leading-[20px] tracking-[0.04rem] text-soft-black font-bold" {{ block.shopify_attributes }}>
                     {{ product.metafields.custom.minor_description }}
               </div>
 
@@ -168,7 +168,7 @@
               </p>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                <div class="m-no text-[18px] leading-[150%] tracking-[0.03rem] text-soft-black font-normal quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
                 </div>
               {%- endif -%}
