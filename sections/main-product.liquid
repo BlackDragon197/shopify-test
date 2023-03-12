@@ -81,7 +81,7 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="product__title text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
+              <div class="m-0 product__title text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
@@ -89,10 +89,8 @@
                   </h2>
                 </a>
               </div>
-              <div class="text-[17px] leading-[20px] tracking-[0.04rem] text-soft-black font-bold" {{ block.shopify_attributes }}>
-                  <h2 class="h1">
+              <div class="m-0 text-[17px] leading-[20px] tracking-[0.04rem] text-soft-black font-bold" {{ block.shopify_attributes }}>
                     {{ product.metafields.custom.minor_description }}
-                  </h2>
               </div>
 
             {%- when 'price' -%}
