@@ -158,44 +158,52 @@ console.log('script: ', script)
     let spanLabel = document.querySelectorAll("span.rc-radio__label");
     let radio1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1'] span.rc-radio__label");
     let radio2 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio2'] span.rc-radio__label");
-    let radioPrice = '<span id="price-1" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
-let radioPrice2 = '<span id="price-2" class="prices">' + radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length) + '</span>';
-radio1[0].innerText = radio1[0].innerText.split("$")[0]
-    radio2[0].innerText = radio2[0].innerText.split("$")[0]
-    console.log('radio: ', radioPrice);
-    spanLabel[0].insertAdjacentHTML('afterend', radioPrice);
-    spanLabel[1].insertAdjacentHTML('afterend', radioPrice2);
-
-function updateValue(e) {
-  let url = `{{ product.url }}`+'.js'
-fetch(url)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
-    function getPrice(el) {
-  return el.id == e.target.value;
-}
-    let vari = data.variants.find(getPrice)
-    let price = vari.price;
-    let pack = vari.options[1].split('-')[0]
-    let pos = price.toString().length -2;
-    price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
-    priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
-    let span1 = document.getElementById('price-1');
-    let span2 = document.getElementById('price-2');
-    let priceBottle = Number(price.substring(1, price.length)) / Number(pack)
-    let flex1 = '<div class="wrap">' + priceBottle + '</div>'
-    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
-    spanLabel[0].insertAdjacentHTML('afterend', flex1)
-    span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
-      })
-      .catch(function () {
-        console.log('Booo');
-      });
-    }
-          }
-          setTimeout(mek, 1000)</script>
+    let pricy1 = radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length)
+    let pricy2 = radio2[0].innerText.substring(radio2[0].innerText.indexOf("$")-1, radio2[0].innerText.length)
+    let radioPrice = '<span id="price-1" class="prices">' + pricy1 + '</span>';
+let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
+let mel = documnet.getElementsByClassName('name-variant')
+    console.log("mel: '", mel[1])
+    //let wrap1 = '<div id="wrap-1" class="wrap">'
+  radio1[0].innerText = radio1[0].innerText.split("$")[0]
+      radio2[0].innerText = radio2[0].innerText.split("$")[0]
+      console.log('radio: ', radioPrice);
+      spanLabel[0].insertAdjacentHTML('afterend', radioPrice);
+      spanLabel[1].insertAdjacentHTML('afterend', radioPrice2);
+  
+  function updateValue(e) {
+    let url = `{{ product.url }}`+'.js'
+  fetch(url)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      function getPrice(el) {
+    return el.id == e.target.value;
+  }
+      let vari = data.variants.find(getPrice)
+      let price = vari.price;
+      let pack = vari.options[1].split('-')[0]
+      let pos = price.toString().length -2;
+      price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
+      priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
+  let span1 = document.getElementById('price-1');
+      let span2 = document.getElementById('price-2');
+  
+      let priceBottle = Number(price.substring(1, price.length)) / Number(pack)
+      let flex1 = '<div id="wrap-1" class="wrap">' + Math.round(priceBottle * 100) / 100  + '/per bottle</div>'
+  span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
+  
+      spanLabel[0].insertAdjacentHTML('afterend', flex1)
+  
+      span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
+        })
+        .catch(function () {
+          console.log('Booo');
+        });
+      }
+            }
+            setTimeout(mek, 1000)</script>
 <style>
   .prices {
     position: absolute;
@@ -211,7 +219,7 @@ fetch(url)
   .rc-radio {
     flex-wrap: wrap;
   }
-  .wrap{
+  .wrap {
     flex-basis: 100%;
   }
   #EFEDED
