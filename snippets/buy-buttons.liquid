@@ -141,10 +141,13 @@
     label1[0].addEventListener("change", updateValue);
 
     let spanLabel = document.querySelectorAll("span.rc-radio__label");
+    let radio1 = document.querySelector("div.rc-template__radio label[for='rc-radio1']");
+    let radioPrice = radio1.split('$')[1];
+    console.log('radio: ', radioPrice)
+    spanLabel[0].insertAdjacentHTML('afterend', price_span)
+
 function updateValue(e) {
-  //log.textContent = e.target.value;
-  console.log(e.target.value)
-let url = `{{product.url}}`+'.js'
+  let url = `{{product.url}}`+'.js'
 fetch(url)
   .then(function (response) {
     return response.json();
