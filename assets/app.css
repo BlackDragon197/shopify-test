@@ -745,6 +745,9 @@ video {
 .text-\[60px\] {
   font-size: 60px;
 }
+.text-\[48px\] {
+  font-size: 48px;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -772,15 +775,25 @@ video {
 .leading-normal {
   line-height: 1.5;
 }
+.leading-\[60px\] {
+  line-height: 60px;
+}
 .tracking-\[4px\] {
   letter-spacing: 4px;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
 }
+.tracking-\[0\.04rem\] {
+  letter-spacing: 0.04rem;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(249 246 246 / var(--tw-text-opacity));
+}
+.text-soft-black {
+  --tw-text-opacity: 1;
+  color: rgb(36 36 36 / var(--tw-text-opacity));
 }
 .outline {
   outline-style: solid;
