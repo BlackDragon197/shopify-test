@@ -163,7 +163,8 @@ fetch(url1)
 }
     let vari1 = data.variants.find(getPrice)
     packBefore = vari1.options[1].split("-")[0]
-    console.log(packBefore)
+    packBefore = Number(packBefore)
+    console.log('123: ' ,packBefore)
       }) .catch(function () {
         console.log('sdsd');
       });
