@@ -162,7 +162,7 @@ fetch(url1)
   return el.id === Number(label1[0].value);
 }
     let vari1 = data.variants.find(getPrice)
-    packBefore = vari1.options[1].split("-")[0]
+    packBefore = NUmber(vari1.options[1].split("-")[0])
     console.log(packBefore)
       }) .catch(function () {
         console.log('sdsd');
@@ -178,7 +178,7 @@ let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
 
 let num = Number(pricy1.split('$')[1])
 console.log('asd', packBefore, typeof packBefore)
-  let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/Number(packBefore) * 100) / 100 + '/per bottle</div>'
+  let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/packBefore * 100) / 100 + '/per bottle</div>'
   radio1[0].innerText = radio1[0].innerText.split("$")[0]
     radio2[0].innerText = radio2[0].innerText.split("$")[0]
     console.log('radio: ', radioPrice);
