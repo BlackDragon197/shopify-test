@@ -166,7 +166,7 @@ fetch(url1)
     packBefore = Number(packBefore)
 
     console.log('123: ' ,packBefore)
-    kek(packBefore)
+    packBe(packBefore)
       }) .catch(function () {
         console.log('sdsd');
       });
@@ -180,7 +180,7 @@ fetch(url1)
 let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
 
 let num = Number(pricy1.split('$')[1])
-function kek(packBefore){
+function packBe(packBefore){
 console.log('asd', packBefore, typeof packBefore)
 let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/packBefore * 100) / 100 + '/per bottle</div>'
 spanLabel[0].insertAdjacentHTML('afterend', wrap1);
@@ -189,7 +189,6 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     radio2[0].innerText = radio2[0].innerText.split("$")[0]
     console.log('radio: ', radioPrice);
     spanLabel[0].insertAdjacentHTML('afterend', radioPrice);
-    spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     spanLabel[1].insertAdjacentHTML('afterend', radioPrice2);                                       
     function updateValue(e) {
     let url = `{{ product.url }}`+'.js'
@@ -208,11 +207,12 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
     priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
   let span1 = document.getElementById('price-1');
+  let wrap1 = document.getElementById('wrap-1');
     let span2 = document.getElementById('price-2');
     let priceBottle = Number(price.substring(1, price.length)) / Number(pack)
-    let flex1 = '<div id="wrap-1" class="wrap">' + Math.round(priceBottle * 100) / 100  + '/per bottle</div>'
+    let bot1 = '$' + Math.round(priceBottle * 100) / 100  + '/per bottle</div>'
   span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
-                                                    
+wrap1?wrap1.innerHTML = bot1
             spanLabel[0].insertAdjacentHTML('afterend', flex1)
                                                  
             span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
