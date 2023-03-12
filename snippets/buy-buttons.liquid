@@ -157,10 +157,10 @@ fetch(url)
     let price = vari.price;
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
-    price = '<span id="price-1" class="prices">'+ price + '</span>'
+    price_span = '<span id="price-1" class="prices">'+ price + '</span>'
     console.log(price);
     let span1 = document.getElementById('price-1');
-    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price)
+    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price_span)
   })
   .catch(function () {
     console.log('Booo');
