@@ -187,7 +187,7 @@ fetch(url)
     let priceBottle = Number(priceBottle) / Number(pack)
     let flex1 = '<div class="wrap">' + priceBottle + '</div>'
     span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
-    spanLabel[0].insertAdjacentHTML('afterend', flex1)
+    //spanLabel[0].insertAdjacentHTML('afterend', flex1)
     span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
       })
       .catch(function () {
