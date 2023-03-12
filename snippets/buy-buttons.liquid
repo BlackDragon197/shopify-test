@@ -141,8 +141,8 @@
     label1[0].addEventListener("change", updateValue);
 
     let spanLabel = document.querySelectorAll("span.rc-radio__label");
-    let radio1 = document.querySelector("div.rc-template__radio label[for='rc-radio1']");
-    let radioPrice = radio1.split('$')[1];
+    let radio1 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio1']");
+    let radioPrice = radio1[0].split('$')[1];
     console.log('radio: ', radioPrice)
     spanLabel[0].insertAdjacentHTML('afterend', price_span)
 
