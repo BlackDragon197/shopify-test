@@ -207,8 +207,10 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     let pack = vari.options[1].split('-')[0]
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
+    subPrice = '$' + subPrice.toString().substring(0, pos)+ '.' + subPrice.toString().substring(pos, subPrice.toString().length);
     console.log('112111 ', subPrice)
     priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
+    priceSpan2 = '<span id="price-2" class="prices">'+ subPrice + '</span>'
     
   let span1 = document.getElementById('price-1');
   let wrap1 = document.getElementById('wrap-1');
@@ -218,7 +220,7 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
   span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
 wrap1?wrap1.innerHTML = bot1:{}
             spanLabel[0].insertAdjacentHTML('afterend', flex1)
-            span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan2)
+            span2?span2.innerHTML = subPrice : spanLabel[1].insertAdjacentHTML('afterend', priceSpan2)
           })
           .catch(function () {
             console.log('Booo');
