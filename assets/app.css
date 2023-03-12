@@ -752,6 +752,9 @@ video {
 .text-\[7rem\] {
   font-size: 7rem;
 }
+.text-\[15px\] {
+  font-size: 15px;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -760,6 +763,9 @@ video {
 }
 .font-normal {
   font-weight: 400;
+}
+.font-\[15px\] {
+  font-weight: 15px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -788,6 +794,9 @@ video {
 .leading-\[150\%\] {
   line-height: 150%;
 }
+.leading-\[18px\] {
+  line-height: 18px;
+}
 .tracking-\[0\.04rem\] {
   letter-spacing: 0.04rem;
 }
@@ -799,6 +808,9 @@ video {
 }
 .tracking-\[0\.03rem\] {
   letter-spacing: 0.03rem;
+}
+.tracking-\[0\.05em\] {
+  letter-spacing: 0.05em;
 }
 .text-soft-black {
   --tw-text-opacity: 1;

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Moderat';
+    font-family: 'Moderati';
     src: url('Moderat-Black.eot');
     src: url('Moderat-Black.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Black.woff2') format('woff2'),
@@ -18,17 +18,6 @@
         url('Moderat-Black-Italic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('Moderat-Bold.eot');
-    src: url('Moderat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Moderat-Bold.woff2') format('woff2'),
-        url('Moderat-Bold.woff') format('woff'),
-        url('Moderat-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
 }
 
 @font-face {
@@ -267,7 +256,7 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
+    font-family: 'Moderati';
     src: url('Moderat-Light.eot');
     src: url('Moderat-Light.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Light.woff2') format('woff2'),
@@ -317,7 +306,7 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
+    font-family: 'Moderati';
     src: url('Moderat-Medium.eot');
     src: url('Moderat-Medium.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Medium.woff2') format('woff2'),
@@ -388,7 +377,7 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
+    font-family: 'Moderati';
     src: url('Moderat-Regular.eot');
     src: url('Moderat-Regular.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Regular.woff2') format('woff2'),
@@ -418,7 +407,7 @@
 }
 
 @font-face {
-    font-family: 'Moderat';
+    font-family: 'Moderati';
     src: url('Moderat-Thin.eot');
     src: url('Moderat-Thin.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Thin.woff2') format('woff2'),
