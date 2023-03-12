@@ -184,6 +184,7 @@ fetch(url)
     price_span = '<span id="price-1" class="prices">'+ price + '</span>'
     let span1 = document.getElementById('price-1');
     let span2 = document.getElementById('price-2');
+    console.log(typeof price, price, typeof pack, pack)
     let priceBottle = price / pack
     let flex1 = '<div class="wrap">' + priceBottle + '</div>'
     span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price_span)
