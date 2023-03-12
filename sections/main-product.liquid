@@ -81,7 +81,7 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div  class="m-no text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
+              <div style="font-size: 48px !important; line-height: 60px !important;" class="m-no text-[48px] leading-[60px] text-soft-black font-bold" {{ block.shopify_attributes }}>
                 <a href="{{ product.url }}" class="">
                   <h1>{{ product.title | escape }}</h1>
                 </a>
