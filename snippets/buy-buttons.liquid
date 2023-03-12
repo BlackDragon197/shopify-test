@@ -162,7 +162,7 @@ fetch(url1)
   return el.id === Number(label1[0].value);
 }
     let vari1 = data.variants.find(getPrice)
-    packBefore = Number(vari1.options[1].split("-")[0])
+    packBefore = vari1.options[1].split("-")[0]
     console.log(packBefore)
       }) .catch(function () {
         console.log('sdsd');
