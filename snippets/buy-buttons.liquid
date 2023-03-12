@@ -179,9 +179,12 @@ fetch(url1)
     let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
 
     let num = Number(pricy1.split('$')[1])
+    let num2 = Number(pricy2.split('$')[1])
     function packBe(packBefore){
       let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/packBefore * 100) / 100 + '/per bottle</div>'
+      let wrap2 = '<div id="wrap-2" class="wrap">$'+ Math.round(num2/packBefore * 100) / 100 + '/per bottle</div>'
       spanLabel[0].insertAdjacentHTML('afterend', wrap1);
+      spanLabel[1].insertAdjacentHTML('afterend', wrap2);
     }
   radio1[0].innerText = radio1[0].innerText.split("$")[0]
     radio2[0].innerText = radio2[0].innerText.split("$")[0]
@@ -210,10 +213,14 @@ fetch(url1)
     let span1 = document.getElementById('price-1');
     let span2 = document.getElementById('price-2');
     let wrap1 = document.getElementById('wrap-1');
+    let wrap2 = document.getElementById('wrap-2');
     let priceBottle = Number(price.substring(1, price.length)) / Number(pack)
+    let subPriceBottle = Number(subPrice.substring(1, subPrice.length)) / Number(pack)
     let bot1 = '$' + Math.round(priceBottle * 100) / 100  + '/per bottle</div>'
+    let bot2 = '$' + Math.round(subPriceBottle * 100) / 100  + '/per bottle</div>'
     span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
     wrap1?wrap1.innerHTML = bot1:{}
+    wrap2?wrap2.innerHTML = bot2:{}
     span2?span2.innerHTML = subPrice : spanLabel[1].insertAdjacentHTML('afterend', priceSpan2)
 })
           .catch(function () {
