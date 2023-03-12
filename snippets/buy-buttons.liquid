@@ -182,8 +182,9 @@ let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
 let num = Number(pricy1.split('$')[1])
 function kek(packBefore){
 console.log('asd', packBefore, typeof packBefore)
+let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/packBefore * 100) / 100 + '/per bottle</div>'
+spanLabel[0].insertAdjacentHTML('afterend', wrap1);
 }
-  let wrap1 = '<div id="wrap-1" class="wrap">$'+ Math.round(num/packBefore * 100) / 100 + '/per bottle</div>'
   radio1[0].innerText = radio1[0].innerText.split("$")[0]
     radio2[0].innerText = radio2[0].innerText.split("$")[0]
     console.log('radio: ', radioPrice);
