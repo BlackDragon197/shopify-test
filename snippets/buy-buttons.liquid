@@ -199,13 +199,13 @@ fetch(url1)
     }
     let vari = data.variants.find(getPrice)
     let price = vari.price;
-    let subPrice = vari.selling_plan_allocations[0].per_delivery_price
+    //let subPrice = vari.selling_plan_allocations[0].per_delivery_price
     let pack = vari.options[1].split('-')[0]
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
-    subPrice = '$' + subPrice.toString().substring(0, pos)+ '.' + subPrice.toString().substring(pos, subPrice.toString().length);
+    //subPrice = '$' + subPrice.toString().substring(0, pos)+ '.' + subPrice.toString().substring(pos, subPrice.toString().length);
     let priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
-    let priceSpan2 = '<span id="price-2" class="prices">'+ subPrice + '</span>'
+    //let priceSpan2 = '<span id="price-2" class="prices">'+ subPrice + '</span>'
     
     let span1 = document.getElementById('price-1');
     //let span2 = document.getElementById('price-2');
