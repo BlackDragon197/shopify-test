@@ -160,7 +160,7 @@ fetch(url)
     price = '<span id="price-1" class="prices">'+ price + '</span>'
     console.log(price);
     let span1 = document.getElementById('price-1');
-    span1?span1.innerHTML( price) : spanLabel[0].insertAdjacentHTML('afterend', price)
+    span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', price)
   })
   .catch(function () {
     console.log('Booo');
