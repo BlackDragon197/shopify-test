@@ -176,6 +176,7 @@ fetch(url1)
     let radio2 = document.querySelectorAll("div.rc-template__radio label[for='rc-radio2'] span.rc-radio__label");
     let pricy1 = radio1[0].innerText.substring(radio1[0].innerText.indexOf("$")-1, radio1[0].innerText.length)
     let pricy2 = radio2[0].innerText.substring(radio2[0].innerText.indexOf("$")-1, radio2[0].innerText.length)
+    console.log("prices: ", pricy1, pricy2)
     let radioPrice = '<span id="price-1" class="prices">' + pricy1 + '</span>';
 let radioPrice2 = '<span id="price-2" class="prices">' + pricy2 + '</span>';
 
@@ -206,6 +207,7 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
     let pos = price.toString().length -2;
     price = '$' + price.toString().substring(0, pos)+ '.' + price.toString().substring(pos, price.toString().length);
     priceSpan = '<span id="price-1" class="prices">'+ price + '</span>'
+    
   let span1 = document.getElementById('price-1');
   let wrap1 = document.getElementById('wrap-1');
     let span2 = document.getElementById('price-2');
@@ -214,8 +216,7 @@ spanLabel[0].insertAdjacentHTML('afterend', wrap1);
   span1?span1.innerHTML = price : spanLabel[0].insertAdjacentHTML('afterend', priceSpan)
 wrap1?wrap1.innerHTML = bot1:{}
             spanLabel[0].insertAdjacentHTML('afterend', flex1)
-                                                 
-            span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan)
+            span2?span2.innerHTML = price : spanLabel[1].insertAdjacentHTML('afterend', priceSpan2)
           })
           .catch(function () {
             console.log('Booo');
