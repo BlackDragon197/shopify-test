@@ -15,7 +15,8 @@ module.exports = {
     },
     fontFamily:{
       "moderat": "Moderat",
-      "moderat-c": "Moderat Condensed"
+      "moderat-c": "Moderat Condensed",
+      "space" : "Space Mono"
     },
     extend: {
       colors: {

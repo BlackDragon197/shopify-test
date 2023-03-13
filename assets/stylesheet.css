@@ -32,6 +32,17 @@
 }
 
 @font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Bold.eot');
+    src: url('SpaceMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SpaceMono-Bold.woff2') format('woff2'),
+        url('SpaceMono-Bold.woff') format('woff'),
+        url('SpaceMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Moderat Condensed';
     src: url('Moderat-Condensed-Black.eot');
     src: url('Moderat-Condensed-Black.eot?#iefix') format('embedded-opentype'),
@@ -382,6 +393,16 @@
     src: url('Moderat-Regular.eot?#iefix') format('embedded-opentype'),
         url('Moderat-Regular.woff2') format('woff2'),
         url('Moderat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Regular.eot');
+    src: url('SpaceMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SpaceMono-Regular.woff2') format('woff2'),
+        url('SpaceMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
