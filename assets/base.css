@@ -2557,6 +2557,8 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation2;
   display: none;
+  display: flex;
+  justify-content: end;
 }
 
 .header--top-center .header__inline-menu,
@@ -2588,6 +2590,10 @@ details[open] > .header__submenu {
 
 .header__menu-item {
   padding: 1.2rem;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: Moderati;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
