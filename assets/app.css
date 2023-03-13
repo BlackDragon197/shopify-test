@@ -801,6 +801,9 @@ video {
 .leading-\[22px\] {
   line-height: 22px;
 }
+.leading-\[48px\] {
+  line-height: 48px;
+}
 .tracking-\[0\.03rem\] {
   letter-spacing: 0.03rem;
 }
