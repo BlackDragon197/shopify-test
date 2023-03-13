@@ -2224,7 +2224,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   .header--middle-center {
     grid-template-areas: 'navigation heading navigation2 icons';
     grid-template-columns: 22fr auto 21fr 1fr;
-    column-gap: 2rem;
+    column-gap: 2rem; 
   }
 
   .header--middle-center a.header__heading-link {
