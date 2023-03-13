@@ -2148,9 +2148,14 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .announcement-bar__message {
+  background-color: #F9F6F6;
   padding: 1rem 0;
   margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: Space Mono;
   letter-spacing: 0.1rem;
+  color: #242424;
 }
 
 /* section-header */
