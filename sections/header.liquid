@@ -539,11 +539,11 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- if section.settings.menu != blank -%}
+    {%- if section.settings.menu2 != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu2">
           <ul class="list-menu list-menu--inline" role="list">
-            {%- for link in section.settings.menu.links -%}
+            {%- for link in section.settings.menu2.links -%}
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
