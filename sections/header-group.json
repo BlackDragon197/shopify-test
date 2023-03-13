@@ -28,6 +28,7 @@
         "color_scheme": "background-1",
         "logo_position": "middle-center",
         "menu": "main-menu",
+        "menu2": "right-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
