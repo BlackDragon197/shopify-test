@@ -2223,7 +2223,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
   .header--middle-center {
     grid-template-areas: 'navigation heading navigation2 icons';
-    grid-template-columns: 11fr auto 10fr 1fr;
+    grid-template-columns: 22fr auto 21fr 1fr;
     column-gap: 2rem;
   }
 
