@@ -2119,8 +2119,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 /* section-announcement-bar */
 .announcement-bar {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+  background: #F9F6F6 !important;
 }
 
 .announcement-bar__link {
@@ -2193,10 +2193,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
-}
-
-.header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
 .header {
