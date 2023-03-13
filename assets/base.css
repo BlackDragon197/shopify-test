@@ -2594,7 +2594,7 @@ details[open] > .header__submenu {
   font-weight: 400;
   font-family: Moderati;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: black;
 }
 
 .header__menu-item:hover {
